@@ -596,8 +596,41 @@ footer .footing .svgs a svg:hover {
   text-align: center;
   cursor: pointer;
 }
+
 .scroll_to_top span {
   transform: rotate(180deg);
   font-size: 27px !important;
   color: #6244bb;
+}
+
+.cpyrights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 10px !important;
+}
+
+.hr_line {
+  margin-top: 20px !important;
+}
+
+.cpyrights hr,
+.hr_line {
+  margin: 0 auto;
+  width: 100% !important;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.cpyrights p span {
+  color: #fff;
 }
