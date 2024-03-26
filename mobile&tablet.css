@@ -364,4 +364,8 @@
   .show_more_btn {
     margin-top: 0px;
   }
+  .container .main .container_text p,
+  .container_second .main .container_text p {
+    font-size: 5px;
+  }
 }
