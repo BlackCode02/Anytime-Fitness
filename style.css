@@ -34,7 +34,6 @@ header nav {
 
 .nav_item ul li a {
   color: #fff;
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 16px;
@@ -68,7 +67,6 @@ header nav {
   border-radius: 50rem !important;
   background-color: #f26453;
   color: #fff;
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
   border: 2px solid transparent;
   text-decoration: none;
@@ -128,7 +126,6 @@ header nav {
 
 .container .main .container_text,
 .container_second .main .container_text {
-  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -231,7 +228,6 @@ header nav {
   justify-content: flex-start;
   color: #2d2926;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
 }
 
 .member .info p {
@@ -252,7 +248,6 @@ header nav {
   justify-content: center;
   padding: 40px 0px;
   background-color: #f0f0f0;
-  font-family: "Poppins", sans-serif;
 }
 
 .quick_reads h3 {
@@ -342,7 +337,6 @@ header nav {
   background-color: #8348ad;
   padding: 10px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
 }
 
 .af_tips .af_tips_maxwidth {
