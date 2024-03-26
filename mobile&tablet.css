@@ -250,6 +250,9 @@
   .quick_reads .cards .innercard {
     width: 48% !important;
   }
+  .container_text p {
+    font-size: 5px;
+  }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1000px) {
@@ -302,6 +305,9 @@
 
   .container .main .container_text p,
   .container_second .main .container_text p {
+    font-size: 5px;
+  }
+  .container_text p {
     font-size: 5px;
   }
 
@@ -364,8 +370,7 @@
   .show_more_btn {
     margin-top: 0px;
   }
-  .container .main .container_text p,
-  .container_second .main .container_text p {
+  .container_text p {
     font-size: 5px;
   }
 }
