@@ -302,11 +302,8 @@
 
   .container .main .container_text p,
   .container_second .main .container_text p {
-    font-size: 5px !important;
+    font-size: 14px !important;
   }
-  /* .container_text p {
-    font-size: 5px;
-  } */
 
   .tablet_responsive {
     /* (This is Container last Video class) */
@@ -366,8 +363,5 @@
   }
   .show_more_btn {
     margin-top: 0px;
-  }
-  .container_text p {
-    font-size: 5px !important;
   }
 }

@@ -587,8 +587,11 @@ footer .footing .svgs a svg:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   cursor: pointer;
+}
+.scroll_to_top:hover {
+  transition: all 0.2s linear;
+  transform: translateY(-2px);
 }
 
 .scroll_to_top span {
