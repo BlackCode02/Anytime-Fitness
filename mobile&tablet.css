@@ -20,8 +20,43 @@
 
   .hamburger {
     display: block;
+    width: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-
+  .hamburger .lines {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    margin: 2.6px 0px;
+    border-radius: 10px;
+  }
+  .middle_line {
+    display: none;
+    transition: all 0.3s ease;
+  }
+  .midle_hide {
+    transition: all 0.3s ease;
+    display: block;
+  }
+  .upper_line {
+    transform: rotate(45deg);
+    transition: all 0.3s ease;
+  }
+  .uper_rotate {
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+  }
+  .lower_line {
+    transition: all 0.3s ease;
+    transform: rotate(-45deg);
+  }
+  .lower_rotate {
+    transition: all 0.3s ease;
+    transform: rotate(0deg);
+  }
   .nav_item {
     width: 100%;
     overflow: hidden;
@@ -63,7 +98,7 @@
 
   .container,
   .container_second {
-    padding: 40px;
+    padding: 25px;
   }
 
   .container .main,
@@ -81,7 +116,14 @@
   .container_second .main .container_text {
     padding-bottom: 20px;
   }
-
+  .container .main .container_text h2,
+  .container_second .main .container_text h2 {
+    font-size: 37px;
+  }
+  .container .main .container_text p,
+  .container_second .main .container_text p {
+    font-size: 15px;
+  }
   .member {
     align-items: normal;
   }
@@ -192,6 +234,9 @@
   .show_more_btn {
     margin-top: 0px;
   }
+  .footing .unorder li {
+    font-size: 15px;
+  }
 }
 
 @media screen and (min-width: 190px) and (max-width: 300px) {
@@ -253,6 +298,11 @@
   .container .main .container_video,
   .container_second .main .container_video {
     align-self: center;
+  }
+
+  .container .main .container_text p,
+  .container_second .main .container_text p {
+    font-size: 15px;
   }
 
   .tablet_responsive {
